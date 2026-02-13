@@ -1,0 +1,9 @@
+{
+  "name": "todoapp-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun run server.ts",
+    "build": "bun build ./index.html --outdir ./dist"
+  },
+  "devDependencies": {}
+}

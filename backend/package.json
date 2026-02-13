@@ -1,0 +1,12 @@
+{
+  "name": "todoapp-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun --hot run index.ts",
+    "build": "bunx --bun tsc --noEmit && bun build ./index.ts --outdir ./dist --target bun"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.9"
+  }
+}
